@@ -64,7 +64,7 @@
     }
     if (scrollView.contentOffset.y<-100 && scrollView.contentOffset.y>-212) {
         [UIView animateWithDuration:0.25 animations:^{
-            scrollView.contentInset = UIEdgeInsetsMake(100, 0, 0, 0);
+            scrollView.contentInset = UIEdgeInsetsMake(212, 0, 0, 0);
             scrollView.contentOffset =CGPointMake(0, -212);
         }];
     }
