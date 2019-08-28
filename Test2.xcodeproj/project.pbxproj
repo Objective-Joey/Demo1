@@ -13,7 +13,6 @@
 		6ABC33762315437F001DD47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC33752315437F001DD47A /* Assets.xcassets */; };
 		6ABC33792315437F001DD47A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC33772315437F001DD47A /* LaunchScreen.storyboard */; };
 		6ABC337C2315437F001DD47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC337B2315437F001DD47A /* main.m */; };
-		6ABC338423154AE1001DD47A /* TBaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC338223154AE0001DD47A /* TBaseScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +26,6 @@
 		6ABC33782315437F001DD47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ABC337A2315437F001DD47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ABC337B2315437F001DD47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6ABC338223154AE0001DD47A /* TBaseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBaseScrollView.m; sourceTree = "<group>"; };
-		6ABC338323154AE0001DD47A /* TBaseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBaseScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +58,6 @@
 		6ABC336B2315437E001DD47A /* Test2 */ = {
 			isa = PBXGroup;
 			children = (
-				6ABC338323154AE0001DD47A /* TBaseScrollView.h */,
-				6ABC338223154AE0001DD47A /* TBaseScrollView.m */,
 				6ABC336C2315437E001DD47A /* AppDelegate.h */,
 				6ABC336D2315437E001DD47A /* AppDelegate.m */,
 				6ABC336F2315437E001DD47A /* ViewController.h */,
@@ -147,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ABC33712315437E001DD47A /* ViewController.m in Sources */,
-				6ABC338423154AE1001DD47A /* TBaseScrollView.m in Sources */,
 				6ABC337C2315437F001DD47A /* main.m in Sources */,
 				6ABC336E2315437E001DD47A /* AppDelegate.m in Sources */,
 			);
